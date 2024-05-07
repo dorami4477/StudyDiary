@@ -9,6 +9,10 @@ import UIKit
 
 class PlanListCell: UITableViewCell {
 
+    @IBOutlet weak var listDate: UILabel!
+    @IBOutlet weak var listTitle: UILabel!
+    @IBOutlet weak var listContents: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -9,6 +9,10 @@ import UIKit
 
 class ProfileCell: UITableViewCell {
 
+    @IBOutlet weak var mainImageView:UIImageView!
+    @IBOutlet weak var enNameLabel:UILabel!
+    @IBOutlet weak var krNameLabel:UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,5 +23,7 @@ class ProfileCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+
+    
 
 }

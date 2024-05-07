@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF7ADFD12BE5C893008E8F1B /* SetPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7ADFD02BE5C893008E8F1B /* SetPlanViewController.swift */; };
+		AF7ADFD32BE5D3D0008E8F1B /* PlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7ADFD22BE5D3D0008E8F1B /* PlanModel.swift */; };
+		AF7ADFD52BE5D8B4008E8F1B /* PlanDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7ADFD42BE5D8B4008E8F1B /* PlanDataManager.swift */; };
 		AF9A84432BE479D700436AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A84422BE479D700436AEC /* AppDelegate.swift */; };
 		AF9A84452BE479D700436AEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A84442BE479D700436AEC /* SceneDelegate.swift */; };
 		AF9A84472BE479D700436AEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A84462BE479D700436AEC /* ViewController.swift */; };
 		AF9A844A2BE479D700436AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9A84482BE479D700436AEC /* Main.storyboard */; };
 		AF9A844C2BE479D800436AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9A844B2BE479D800436AEC /* Assets.xcassets */; };
 		AF9A844F2BE479D800436AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9A844D2BE479D800436AEC /* LaunchScreen.storyboard */; };
+		AF9A84572BE47BDC00436AEC /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9A84562BE47BDC00436AEC /* ProfileCell.swift */; };
+		AFDFDC812BE9E97600D165FC /* PlanListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFDC802BE9E97600D165FC /* PlanListViewController.swift */; };
+		AFDFDC832BE9EB0700D165FC /* PlanListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFDC822BE9EB0700D165FC /* PlanListCell.swift */; };
+		AFFC2AB22BE47DBA000A2850 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC2AB12BE47DBA000A2850 /* ProfileModel.swift */; };
+		AFFC2AB42BE47F06000A2850 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC2AB32BE47F06000A2850 /* DataManager.swift */; };
+		AFFC2AB62BE482ED000A2850 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC2AB52BE482ED000A2850 /* DateViewController.swift */; };
+		AFFC2AB82BE492AE000A2850 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC2AB72BE492AE000A2850 /* ProfileViewController.swift */; };
+		AFFC2ABA2BE4AFCF000A2850 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC2AB92BE4AFCF000A2850 /* CreateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF7ADFD02BE5C893008E8F1B /* SetPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPlanViewController.swift; sourceTree = "<group>"; };
+		AF7ADFD22BE5D3D0008E8F1B /* PlanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanModel.swift; sourceTree = "<group>"; };
+		AF7ADFD42BE5D8B4008E8F1B /* PlanDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanDataManager.swift; sourceTree = "<group>"; };
 		AF9A843F2BE479D700436AEC /* StudyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9A84422BE479D700436AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF9A84442BE479D700436AEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,14 @@
 		AF9A844B2BE479D800436AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF9A844E2BE479D800436AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF9A84502BE479D800436AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9A84562BE47BDC00436AEC /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		AFDFDC802BE9E97600D165FC /* PlanListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListViewController.swift; sourceTree = "<group>"; };
+		AFDFDC822BE9EB0700D165FC /* PlanListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListCell.swift; sourceTree = "<group>"; };
+		AFFC2AB12BE47DBA000A2850 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		AFFC2AB32BE47F06000A2850 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		AFFC2AB52BE482ED000A2850 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		AFFC2AB72BE492AE000A2850 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AFFC2AB92BE4AFCF000A2850 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,50 @@
 		AF9A84412BE479D700436AEC /* StudyDiary */ = {
 			isa = PBXGroup;
 			children = (
+				AF9A845A2BE47C3B00436AEC /* Views */,
+				AF9A84592BE47C3500436AEC /* Controllers */,
+				AF9A84582BE47C2B00436AEC /* Models */,
 				AF9A84422BE479D700436AEC /* AppDelegate.swift */,
 				AF9A84442BE479D700436AEC /* SceneDelegate.swift */,
-				AF9A84462BE479D700436AEC /* ViewController.swift */,
 				AF9A84482BE479D700436AEC /* Main.storyboard */,
 				AF9A844B2BE479D800436AEC /* Assets.xcassets */,
 				AF9A844D2BE479D800436AEC /* LaunchScreen.storyboard */,
 				AF9A84502BE479D800436AEC /* Info.plist */,
 			);
 			path = StudyDiary;
+			sourceTree = "<group>";
+		};
+		AF9A84582BE47C2B00436AEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AFFC2AB12BE47DBA000A2850 /* ProfileModel.swift */,
+				AFFC2AB32BE47F06000A2850 /* DataManager.swift */,
+				AF7ADFD22BE5D3D0008E8F1B /* PlanModel.swift */,
+				AF7ADFD42BE5D8B4008E8F1B /* PlanDataManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF9A84592BE47C3500436AEC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF9A84462BE479D700436AEC /* ViewController.swift */,
+				AFFC2AB52BE482ED000A2850 /* DateViewController.swift */,
+				AFFC2AB72BE492AE000A2850 /* ProfileViewController.swift */,
+				AFFC2AB92BE4AFCF000A2850 /* CreateViewController.swift */,
+				AF7ADFD02BE5C893008E8F1B /* SetPlanViewController.swift */,
+				AFDFDC802BE9E97600D165FC /* PlanListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF9A845A2BE47C3B00436AEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF9A84562BE47BDC00436AEC /* ProfileCell.swift */,
+				AFDFDC822BE9EB0700D165FC /* PlanListCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +195,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFFC2AB22BE47DBA000A2850 /* ProfileModel.swift in Sources */,
+				AFFC2AB42BE47F06000A2850 /* DataManager.swift in Sources */,
+				AFDFDC832BE9EB0700D165FC /* PlanListCell.swift in Sources */,
+				AF7ADFD12BE5C893008E8F1B /* SetPlanViewController.swift in Sources */,
+				AFFC2ABA2BE4AFCF000A2850 /* CreateViewController.swift in Sources */,
+				AF7ADFD52BE5D8B4008E8F1B /* PlanDataManager.swift in Sources */,
+				AFFC2AB62BE482ED000A2850 /* DateViewController.swift in Sources */,
 				AF9A84472BE479D700436AEC /* ViewController.swift in Sources */,
+				AF9A84572BE47BDC00436AEC /* ProfileCell.swift in Sources */,
 				AF9A84432BE479D700436AEC /* AppDelegate.swift in Sources */,
+				AFFC2AB82BE492AE000A2850 /* ProfileViewController.swift in Sources */,
+				AFDFDC812BE9E97600D165FC /* PlanListViewController.swift in Sources */,
+				AF7ADFD32BE5D3D0008E8F1B /* PlanModel.swift in Sources */,
 				AF9A84452BE479D700436AEC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

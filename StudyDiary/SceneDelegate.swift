@@ -16,7 +16,40 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        window = UIWindow(windowScene: windowScene)
+
+        let tabBarVC = UITabBarController()
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let initialViewController = storyboard.instantiateViewController(withIdentifier: "ViewController")
+        let navViewController = UINavigationController(rootViewController: initialViewController)
+        let vc2 = UINavigationController(rootViewController: DateViewController())
+
+        
+        // 탭바 이름들 설정
+        navViewController.title = "Member"
+        vc2.title = "Date"
+        
+        // 탭바로 사용하기 위한 뷰 컨트롤러들 설정
+        tabBarVC.setViewControllers([navViewController, vc2], animated: true)
+        tabBarVC.modalPresentationStyle = .fullScreen
+        tabBarVC.tabBar.backgroundColor = .white
+        
+        // 탭바 이미지 설정 (이미지는 애플이 제공하는 것으로 사용)
+        guard let items = tabBarVC.tabBar.items else { return }
+        items[0].image = UIImage(systemName: "person.crop.square")
+        items[1].image = UIImage(systemName: "calendar")
+
+        // 기본루트뷰를 탭바컨트롤러로 설정⭐️⭐️⭐️
+        window?.rootViewController = tabBarVC
+        window?.makeKeyAndVisible()
+/*
+        window?.rootViewController = navViewController
+        window?.makeKeyAndVisible()
+ */
+       
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
