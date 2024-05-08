@@ -7,9 +7,9 @@
 > - calenderUI를 사용하여 일정 추가 기능
 
 
-<img src="https://github.com/dorami4477/StudyDiary/assets/85213387/3721c1e0-5052-4de9-b2f0-a965b16b07d3" width="33%" title="스터디원 리스트" alt="student list"></img>
-<img src="https://github.com/dorami4477/StudyDiary/assets/85213387/934beab2-23bd-4cd1-9af1-caedfed0707b" width="33%" title="스터디원 상세내용" alt="student info"></img>
-<img src="https://github.com/dorami4477/StudyDiary/assets/85213387/e9c1b180-368a-41f7-b001-6b22fb27f551" width="33%" title="스터디원 추가" alt="add student"></img>
+<img src="https://github.com/dorami4477/StudyDiary/assets/85213387/3721c1e0-5052-4de9-b2f0-a965b16b07d3" width="30%" title="스터디원 리스트" alt="student list"></img>
+<img src="https://github.com/dorami4477/StudyDiary/assets/85213387/934beab2-23bd-4cd1-9af1-caedfed0707b" width="30%" title="스터디원 상세내용" alt="student info"></img>
+<img src="https://github.com/dorami4477/StudyDiary/assets/85213387/e9c1b180-368a-41f7-b001-6b22fb27f551" width="30%" title="스터디원 추가" alt="add student"></img>
 
 ## 메인화면 1 요구사항
 
@@ -38,9 +38,9 @@
 3. 필요한 정보를 모두 입력 했다면 메인화면 1에 있는 프로필들중 가장 하단에 프로필이 추가 됩니다.
 
 
-<img src="https://github.com/dorami4477/StudyDiary/assets/85213387/665898fb-72a4-4ea2-945e-400b2d4443ae" width="33%" title="일정 리스트" alt="plan list"></img>
-<img src="https://github.com/dorami4477/StudyDiary/assets/85213387/d130d284-82df-43b4-9c44-1f0729b20f7b" width="33%" title="달력" alt="calender"></img>
-<img src="https://github.com/dorami4477/StudyDiary/assets/85213387/0deec587-329a-4233-994d-0a1ea4e93717" width="33%" title="일정 추가" alt="add plan"></img>
+<img src="https://github.com/dorami4477/StudyDiary/assets/85213387/665898fb-72a4-4ea2-945e-400b2d4443ae" width="30%" title="일정 리스트" alt="plan list"></img>
+<img src="https://github.com/dorami4477/StudyDiary/assets/85213387/d130d284-82df-43b4-9c44-1f0729b20f7b" width="30%" title="달력" alt="calender"></img>
+<img src="https://github.com/dorami4477/StudyDiary/assets/85213387/0deec587-329a-4233-994d-0a1ea4e93717" width="30%" title="일정 추가" alt="add plan"></img>
 
 ## 메인화면 2 요구사항
 
